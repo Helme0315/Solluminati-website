@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7SRPSF7VM6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7SRPSF7VM6");
+    </script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css?2" />
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <title>SOLLUMINATI ORDER</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+  </head>
+  <body>
+    <div id="_preloader">
+      <video autoplay loop muted playsinline>
+        <source src="loader.mp4" type="video/webm" />
+        <source src="loader.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <button onclick="topFunction()" id="back-to-top">^</button>
+    <span id="follower" class="follower"></span>
+
+    <!-- navbar -->
+    <div id="first-page">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="stars4"></div>
+      <div id="stars5"></div>
+      <div id="stars6"></div>
+      <nav class="d-flex justify-content-between">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn mt-3">
+          <div class="fa-bars"></div>
+          <div class="fa-bars"></div>
+          <div class="fa-bars"></div>
+        </label>
+        <ul>
+          <li>
+            <a onclick="closeSideMenu()" href="#district-1" target="_self"
+              >WHAT WE BUILD</a
+            >
+          </li>
+          <li>
+            <a onclick="closeSideMenu()" href="#district-2" target="_self"
+              >TIMELINE</a
+            >
+          </li>
+          <li style="width: 150px"></li>
+          <li>
+            <a onclick="closeSideMenu()" href="#district-3" target="_self"
+              >STORYLINE</a
+            >
+          </li>
+          <li>
+            <a onclick="closeSideMenu()" href="#district-4" target="_self"
+              >WHO WE ARE</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- top hero -->
+      <div class="top-hero">
+        <div class="top-logo">
+          <img class="eyeball" src="assets/triunghi.svg" alt="" />
+          <div class="overflow-circle">
+            <div class="overflow-inner-circle">
+              <img class="pupil" src="assets/iris-cropped.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="sol-title-container fade-in-animation w-100">
+          <h4>SOLLUMINATI</h4>
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <a href="https://tools.solluminati.io" target="_self">
+              <div class="transparent-btn mr-2 ml-2 mt-2" style="width: 180px; text-align: center;">TOOLS</div>
+            </a>
+            <a
+              href="https://magiceden.io/marketplace/solluminati"
+              target="_self"
+            >
+              <div class="transparent-btn ml-2 mr-2 mt-2" style="width: 180px; text-align: center;">BUY NOW</div>
+            </a>
+          </div>
+          <div class="row blackpaper-redirect">
+            <div
+              class="col-12"
+              onclick="window.location.assign('./blackpaper.pdf');"
+            ></div>
+            <div
+              class="col-12"
+              style="margin-top: 25px"
+              onclick="window.location.assign('https://discord.com/invite/solluminati');"
+            ></div>
+          </div>
+          <div class="links-containr">
+            <a href="./blackpaper.pdf" target="_self"> READ THE BLACKPAPER </a>
+            <a
+              href="https://discord.com/invite/solluminati"
+              target="_self"
+              style="margin-top: 25px"
+            >
+              JOIN DISCORD
+            </a>
+          </div>
+        </div>
+        <div
+          class="row flex-nowrap"
+          style="position: absolute; bottom: 0; background: white"
+        >
+          <div class="row-infinite">
+            4343 drawn by hand, algorithmically generated NFTs allowing access
+            in The Solluminati Order.&nbsp;&nbsp;&nbsp; 4343 drawn by hand,
+            algorithmically generated NFTs allowing access in The Solluminati
+            Order.&nbsp;&nbsp;&nbsp;
+          </div>
+          <div class="row-infinite">
+            4343 drawn by hand, algorithmically generated NFTs allowing access
+            in The Solluminati Order.&nbsp;&nbsp;&nbsp; 4343 drawn by hand,
+            algorithmically generated NFTs allowing access in The Solluminati
+            Order.&nbsp;&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DISTRICT 1 -->
+    <div id="district-1" class="custom-width-container">
+      <div class="dstr-title">
+        <div>WHAT WE BUILD</div>
+      </div>
+      <div class="horz-line"></div>
+      <div class="vert-line"></div>
+      <div class="row w-100">
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            width="400px"
+            style="margin-top: -80px"
+          >
+            <source src="assets/avatar-nou.mp4" type="video/webm" />
+            <source src="assets/avatar-nou.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex flex-column justify-content-end pl-md-0"
+        >
+          <div class="rectangle-text mt-3 mt-md-0">
+            Product-based NFT Project
+          </div>
+          <div class="dstr-dscr">
+            The Solluminati NFT project is a community-centric NFT project built
+            on the Solana blockchain. The NFT holders will get access to The Eye
+            data analytics tool suite. <br />
+            <br />
+            4343 algorithmically generated from over 250 hand-drawn layers NFTs
+            inspired by Illuminati. The All Seeing Eye is present everywhere,
+            watching everything.
+          </div>
+        </div>
+      </div>
+      <div class="row w-100 mt-5 flex-column-reverse flex-md-row">
+        <div
+          class="col-12 col-md-6 d-flex flex-column justify-content-center pr-md-0"
+        >
+          <div class="rectangle-text" style="transform: translateX(-100px)">
+            The Eye - NFT Tools
+          </div>
+          <div class="dstr-dscr" style="transform: translateX(-100px)">
+            For our NFT holders we develop an ecosystem of tools and services to
+            be able to monitor, analyse and make data driven decisions on the
+            Solana NFT ecosystem.
+            <br />
+            <br />
+            The Radar, The Compass and the Navigator are the 3 modules of The
+            Eye. Social trackers, market analytics and trading BI, together as
+            the most powerful tool suite in the ecosystem.
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+          <embed src="assets/robot_eyeball.gif" width="450px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- DISTRICT 2 -->
+    <div id="district-2" style="position: relative">
+      <div>
+        <div
+          class="dstr-title"
+          style="width: fit-content; margin-left: auto; margin-right: auto"
+        >
+          <div>TIMELINE</div>
+        </div>
+        <div class="overlay-1 left-animation">
+          <div class="overlay-2">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <h5>Chapter 5</h5>
+                <h3>
+                  Mission <br />
+                  Dominate
+                </h3>
+                <p class="dstr-dscr">
+                  The Solluminati Order objective is to fill a missing piece in
+                  the Solana Ecosystem by enabling its community to
+                  <b>dominate</b>.
+                  <br />
+                </p>
+              </div>
+
+              <div class="item">
+                <h5>Chapter 1</h5>
+                <h3>
+                  The <br />
+                  watch
+                </h3>
+                <p class="dstr-dscr">
+                  We are one of you. We have been watching Solana NFT Metaverse
+                  for a while already. We know all the projects, we watch all
+                  the movements. The All-Seeing Eye was opened and it gathered
+                  information.<br />
+                </p>
+              </div>
+              <div class="item">
+                <h5>Chapter 2</h5>
+                <h3>
+                  The <br />
+                  enrollment
+                </h3>
+                <p class="dstr-dscr">
+                  The release of the 4343 membership passes as Solluminati NFTs
+                  in the Solana Metaverse combined with pledging our values to
+                  our members. The initiation begins.<br />
+                </p>
+              </div>
+              <div class="item">
+                <h5>Chapter 3</h5>
+                <h3>
+                  The <br />
+                  enlightenment
+                </h3>
+                <p class="dstr-dscr">
+                  The apprentices will become members. The All-Seeing Eye will
+                  be available for each of them. The Solluminati Order will
+                  transform into a DAO, where holders become voting members and
+                  will decide how the future will be shaped and will enjoy its
+                  benefits altogether.<br />
+                </p>
+              </div>
+              <div class="item">
+                <h5>Chapter 4</h5>
+                <h3>
+                  The <br />
+                  control
+                </h3>
+                <p class="dstr-dscr">
+                  Endless possibilities will appear for the pass holders. The
+                  voice of every member will be heard and will contribute
+                  directly to the development of the project.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img src="assets/scroll.svg" style="width: 40px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- DISTRICT 3 -->
+    <div id="district-3" class="custom-width-container container-fluid">
+      <div class="dstr-title">
+        <div>STORYLINE</div>
+      </div>
+      <div class="faction row">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          width="450px"
+          style="margin: auto"
+        >
+          <source src="assets/faction-1.mp4" type="video/webm" />
+          <source src="assets/faction-1.mp4" type="video/mp4" />
+        </video>
+        <div class="col-12 col-lg-6 pr-lg-0">
+          <div class="rectangle-text" style="color: #c8c8c8">Skull & Bones</div>
+          <div class="dstr-dscr">
+            The Source casts its energy in giving its members the power to
+            control and dominate, influencing and shifting the world in their
+            interest and wellbeing. Their path to enlightenment is Lux per
+            corpus (light through body). <br />
+            <br />
+            The members of this faction should spread the control of the order,
+            bringing valuable apprentices and insights to the Solluminati order.
+          </div>
+        </div>
+      </div>
+      <div class="faction row flex-column-reverse flex-lg-row">
+        <div class="col-12 col-lg-6 pl-lg-0">
+          <div
+            class="rectangle-text"
+            style="color: #c67718; transform: translateX(-100px)"
+          >
+            Golden Circle
+          </div>
+          <div class="dstr-dscr" style="transform: translateX(-100px)">
+            The Eye watches over its members giving them control of the
+            financial world allowing them to control the markets . Their path to
+            enlightenment is Lux per mentem (light through mind). <br />
+            <br />
+            The members should watch the market and price of other projects and
+            find opportunities for wealth.
+          </div>
+        </div>
+        <video
+          style="transform: translateX(100px)"
+          class="custom-rotate"
+          autoplay
+          loop
+          muted
+          playsinline
+          width="450px"
+        >
+          <source src="assets/faction-2.mp4" type="video/webm" />
+          <source src="assets/faction-2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="faction row">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          width="400px"
+          style="margin: auto"
+        >
+          <source src="assets/faction-3.mp4" type="video/webm" />
+          <source src="assets/faction-3.mp4" type="video/mp4" />
+        </video>
+        <div class="col-12 col-lg-6 pr-lg-0">
+          <div class="rectangle-text" style="color: #a19fa6">
+            House of Degen
+          </div>
+          <div class="dstr-dscr">
+            The Light shines on this faction. Its members have an acute interest
+            in influencing the faith and exploring the beliefs of others. Their
+            path to enlightenment is Lux per spiritum (light through spirit).
+            <br />
+            <br />
+            The members should study the Solana metaverse for other projects,
+            find cool partnerships, trends, and what the markets want.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DISTRICT 4 -->
+    <div id="district-4" style="padding-bottom: 0">
+      <div
+        class="dstr-title"
+        style="width: fit-content; margin-left: auto; margin-right: auto"
+      >
+        <div>WHO WE ARE</div>
+      </div>
+      <div class="team-container">
+        <div>
+          <div class="team-mmbr team-mmbr-1">
+            <video autoplay loop muted playsinline width="300">
+              <source src="assets/av-1.mp4" type="video/webm" />
+              <source src="assets/av-1.mp4" type="video/mp4" />
+            </video>
+            <h5>Losgitanos</h5>
+            <span>Initiator & Leader</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="team-mmbr team-mmbr-2">
+            <video autoplay loop muted playsinline width="300">
+              <source src="assets/av-2.mp4" type="video/webm" />
+              <source src="assets/av-2.mp4" type="video/mp4" />
+            </video>
+            Bogdan
+            <span> Marketing Guru </span>
+          </div>
+        </div>
+
+        <div>
+          <div class="team-mmbr team-mmbr-3">
+            <video autoplay loop muted playsinline width="300">
+              <source src="assets/av-3.mp4" type="video/webm" />
+              <source src="assets/av-3.mp4" type="video/mp4" />
+            </video>
+            Kratos
+            <span>Solana Chieftain</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="team-mmbr team-mmbr-4">
+            <video autoplay loop muted playsinline width="300">
+              <source src="assets/av-4.mp4" type="video/webm" />
+              <source src="assets/av-4.mp4" type="video/mp4" />
+            </video>
+            Cesien
+            <span>Solana Forger</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="team-mmbr team-mmbr-5">
+            <video autoplay loop muted playsinline width="300">
+              <source src="assets/av-5.mp4" type="video/webm" />
+              <source src="assets/av-5.mp4" type="video/mp4" />
+            </video>
+            Demiera
+            <span>Front-end Wizard</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="overflow: hidden">
+      <div class="row flex-nowrap">
+        <div class="row-1">
+          WE ARE WATCHING&nbsp;WE ARE WATCHING&nbsp;WE ARE WATCHING&nbsp;WE ARE
+          WATCHING&nbsp;
+        </div>
+        <div class="row-1">
+          WE ARE WATCHING&nbsp;WE ARE WATCHING&nbsp;WE ARE WATCHING&nbsp;WE ARE
+          WATCHING&nbsp;
+        </div>
+      </div>
+      <div
+        class="w-100"
+        style="height: 1px; background: white; margin-top: -3vw"
+      ></div>
+      <div class="row flex-nowrap mb-5">
+        <div class="row-2">
+          the Eye never sleeps&nbsp;the Eye never sleeps&nbsp;the Eye never
+          sleeps&nbsp;
+        </div>
+        <div class="row-2">
+          the Eye never sleeps&nbsp;the Eye never sleeps&nbsp;the Eye never
+          sleeps&nbsp;
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footr">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="stars4"></div>
+      <div id="stars5"></div>
+      <div id="stars6"></div>
+      <div class="socials-container">
+        <div
+          onclick="window.location.assign('https://medium.com/solluminati');"
+        >
+          <img src="assets/m.svg" alt="" />
+        </div>
+        <div
+          onclick="window.location.assign('https://twitter.com/SolluminatiNFT');"
+        >
+          <img src="assets/twitter.svg" alt="" />
+        </div>
+        <div
+          onclick="window.location.assign('https://discord.com/invite/solluminati');"
+        >
+          <img class="mr-0" src="assets/discord.svg" alt="" />
+        </div>
+      </div>
+      <div class="footr-pow">
+        <h4>SOLLUMINATI</h4>
+        <div>Copyright © Powered by SOLANA</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- scripts -->
+<script type="text/javascript" src="script.js"></script>
